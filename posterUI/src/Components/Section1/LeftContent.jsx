@@ -1,0 +1,17 @@
+import React from 'react'
+import { ArrowUpRight } from "lucide-react";
+import HeroText from './HeroText';
+
+
+const LeftContent = () => {
+  return (
+    <div className='h-full w-1/3 flex flex-col justify-between'>
+        <HeroText/>
+        <div className=''>
+            <ArrowUpRight size={40}/>
+        </div>
+    </div>
+  )
+}
+
+export default LeftContent
